@@ -204,8 +204,6 @@
                     } else {
                         console.log('Image upload failed:', response.statusText);
                     }
-                    const existingMenuText = imageContainer.queryselectorAll('.Menutext');
-                    existingMenuText.forEach((textElement) => textElement.remove());
                 } catch (error) {
                     console.error('Error uploading image:', error);
                 }
